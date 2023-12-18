@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="scripts.js"></script>
+    
+      
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <section class="bienvenida" id="bienvenida">
+        <div class="letras">
+            <span>B</span><span>I</span><span>E</span><span>N</span><span>V</span><span>E</span><span>N</span><span>I</span><span>D</span><span>O</span><span><S></S></span>
+        </div>
+    </section>
+
+    <section class="cuerpo">
+        <div class="lienzo">
+            <iframe src="matrix.html" frameborder="0"
+        style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; overflow: hidden;"></iframe>
+        </div>
+
+    <div class="portafolio"> 
+    <!-- MENU ENCABEZADO -->
+    <script src="scripts.js"></script>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mi portafolio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTAME</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    
+        
+        
+          <!-- SECCION INICIO -->
+          <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="imgs/yo.png" alt="">
+                </div>
+                <h1>Rios Rodrigo </h1>
+                <h2>Tecnico Superior en Desarrollo de Software</h2>
+                <div class="redes">
+                    <a href="https://www.facebook.com/rodrigo.rios.75685"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/RodriRios96"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/rodrigo-martin-rios-b92626225"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+          </section>
+
+             <!-- SECCION SOBRE MI -->
+        <section id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                <h2>Sobre Mí</h2>
+                <p><span>Hola, soy Rios Rodrigo.</span> soy estudiante de la carrera de tec.sup. en
+                    desarrollo de software y diseño web, actualemnte me encuentro cursando el ultimo año de la carrera.
+                </p>
+               <div class="cr">
+                <h5>Descargar Curriculum / Download Resume</h5>
+                <button>
+                    <a href="cvs/cvespañol.pdf" download="cvespañol.pdf"></a>
+                     Español <i  class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+             
+                <button>
+                    <a href="cvs/CVINGLES.pdf" download="CVINGLES.pdf"></a>
+                    English <i hr class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- SECCION SKILLS -->
+        <section class="skills" id="skills">
+            <div class="contenido-seccion">
+                <h2>Habilidades</h2>
+                <div class="fila">
+                    <!-- Technical Skill -->
+                    <div class="tarjeta" onclick="girarTarjeta(this)">
+                        <div class="cara frontal">
+                            <div class="col">
+
+                                <h3>Conocimiento Tecnico</h3>
+                                <div class="skill">
+                                    <span>Javascript</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>65%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>HTML & CSS</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>89%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Paquete Adove</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>95%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Office</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>81%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Gestion de base de datos</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>55%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Professional Skills -->
+                        <div class="cara trasera">
+                            <d class="col">
+
+                                <h3>Habilidaes Profesionales</h3>
+                                <div class="skill">
+                                    <span>Comunicación</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>80%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Trabajo en Equipo</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>70%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Creatividad</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>99%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Dedicación</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>65%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Proyect Management</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                            <span>94%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- SECCION PORTFOLIO -->
+        <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>PORTFOLIO</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="imgs/paginstituto.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Pagina web de un instituto</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="imgs/uml.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño uml de un sistema para libreria escolar</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="imgs/resgistro.png" alt="">
+                        <div class="overlay">
+                            <h3>Formulario de resgistro de usuario estandar</h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION CONTACTO -->
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>CONTACTAME</h2>
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <form id="Formulario">
+                            <input type="text" placeholder="Tú Nombre" id="nombre">
+                            <input type="text" placeholder="Número telefónico" id="telefono">
+                            <input type="text" placeholder="Dirección de correo" id="correo">
+                            <input type="text" placeholder="Tema" id="Tema">
+                            <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            <button type="button" onclick="mostrarDatos()">
+                                Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                                <span class="overlay"></span>
+                            </button>
+
+                            <div id="mensajeEnviado" class="mensaje-centrado">
+                                Mensaje enviado correctamente
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="col">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Facundo Quiroga 18, Formosa Argentina.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    cel: 3704376471
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Email: rodrigo.rmr91@gmail.com
+                                </li>
+                                <div class="redesft">
+                                    <a href="https://www.facebook.com/rodrigo.rios.75685"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://twitter.com/RodriRios96"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/in/rodrigo-martin-rios-b92626225"><i
+                                            class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+
+            <div class="redes">
+                <h4>Ante cualquier duda, consulte en las redes y canales dispoibles.</h4>
+                <h5>Gracias!</h5>
+            </div>
+        </footer>
+
+
+
+    </section>
+
+</div>
+</div>
+
+</body>
+
+
+</html>
